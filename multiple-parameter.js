@@ -30,4 +30,10 @@ console.log('total after subtraction', total);
 
 // vabfol ber koro
 
+function QuotientTwoNumber(num1, num2){
+    var result = num1 / num2;
+    return result;
+}
+var total = QuotientTwoNumber(90, 15)
+console.log( 'Quotient Result', total)
 
