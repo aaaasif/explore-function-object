@@ -7,7 +7,7 @@ function addTwoNumbers(number1, number2) {
 var firstNumber = 35;
 var secondNumber = 47;
 var result = addTwoNumbers(secondNumber, firstNumber);
-console.log('result value: ', result);
+// console.log('result value: ', result);
 
 
 function multiplyTwoNumbers(num1, num2) {
@@ -16,12 +16,18 @@ function multiplyTwoNumbers(num1, num2) {
 }
 
 var total = multiplyTwoNumbers(5, 100);
-console.log('total after multiplication', total);
+// console.log('total after multiplication', total);
 
 // biyog koro duita sonkha
 
-
+function SubtractionTwoNumber(num1, num2) {
+    var result = num1 - num2;
+    return result;
+}
+var total = SubtractionTwoNumber(50, 20)
+console.log('total after subtraction', total);
 
 
 // vabfol ber koro
+
 
